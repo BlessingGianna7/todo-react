@@ -44,6 +44,9 @@ class TodoItem extends React.Component {
           <button onClick={() => this.props.deleteTodoProps(id)}>
             Delete
           </button>
+          <button onClick={() => this.props.deleteTodoProps(id)}>
+            Edit
+          </button>
           <span style={completed ? completedStyle : null}>
             {title}
           </span>
